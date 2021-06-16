@@ -1,0 +1,6 @@
+console.log('ready from main.jj.js mireille beleau');
+
+
+$('menu-toggle').click(()=>{
+	
+});

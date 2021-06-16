@@ -1,0 +1,79 @@
+.error-404 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+    background: #f6f1f5;
+}
+
+.error-404 h1 {
+    font-family: Ubuntu;
+    color: #002a7b;
+    font-size: 7vw;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.error-404 h2 {
+    font-family: Ubuntu;
+    color: #002a7b;
+    font-size: 8vw;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.error-404 h3 {
+    text-align: center;
+    color: #545871;
+    font-size: 2.5vw;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+.error-404-bottom-section {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.error-404-not-found-header {
+    margin-bottom: 50px;
+    background-image: url("../dist/images/404/404header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.error-bottom-header {
+    margin-bottom: 50px;
+}
+.error-bottom-header h4 {
+    color: #002372;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+
+}
+
+.error-bottom-header span {
+    border-bottom: solid 4px #f16100;
+    position: relative;
+    display: block;
+    width: 344px;
+    margin: auto;
+}
+
+.img-404-container {
+
+}
+
+.img-404-container img {
+
+}

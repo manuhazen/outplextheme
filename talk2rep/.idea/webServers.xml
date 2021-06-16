@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a268c8c-77f3-4111-b1c2-eae72ae9f7ca" name="DemoV2" url="http://ftp.talk2rep.com">
+        <fileTransfer host="ftp.talk2rep.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="278cfdc6-b32f-46a8-802a-1fd3b7851d7a" name="Outplex" url="http://ftp.talk2rep.com">
+        <fileTransfer host="ftp.talk2rep.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

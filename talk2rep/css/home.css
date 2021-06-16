@@ -1,0 +1,263 @@
+.video-home-section {
+  height: 100vh;
+  padding-top: 500px;
+  position: relative;
+  display: block;
+}
+
+.home-video {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.home-video-over {
+  background:
+      linear-gradient(
+    rgba(32,24,78, 0.6),
+    rgba(32,24,78, 0.6)
+  );
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+}
+
+.main-bottons-content {
+  position: absolute;
+  bottom: 65px;
+}
+
+.main-big-text-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-big-text-content h1 {
+  color: #FFFFFF;
+  font-family: Roboto, 'sans-serif';
+  margin: 0px;
+  font-weight: 400;
+  font-size: 65px;
+}
+
+
+
+
+/***
+* LIST CHECKs HOME
+**/
+
+.list-check-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.list-checked {
+  margin-right: 5px;
+  flex: 1;
+}
+
+.list-checked img {
+  width: 35px;
+}
+
+
+.list-checked-text {
+  flex: 9;
+}
+
+.list-checked-text p {
+font-size: 18px;
+font-weight: bold;
+font-family: Roboto;
+color: #00205d;
+}
+
+.check-right-margin {
+  margin-right: 100px;
+}
+
+/***
+#SECOND SECTION
+----*/
+
+.second-section {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.home-card-container {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  position: relative;
+  width: 12%;
+  box-shadow: 0 3px 6px 0 #00000029;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  height: 240px;
+  overflow: hidden;
+  /*display: inline-block;*/
+  /* margin-right: 2%; */
+}
+
+.home-card-header {
+ text-align: center;
+ padding-top: 30px;
+}
+
+.home-card-header img {
+  height: 80px;
+  widht: 70px;
+}
+
+.home-card-body {
+  padding: 8px;
+  text-align: center;
+}
+
+.home-card-body h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.home-card-body p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.home-card-footer {
+  position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background: #002a7b07;
+    width: 100%;
+    border-radius: 29px;
+    padding: 16px;
+}
+
+.home-card-footer a {
+  color: #00205daa;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* .second-section-body-container {
+  padding-top: 50px;
+} */
+
+.section-blue-text {
+  color: #00205d96;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+.pragraph-home-top {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  color: #012468;
+}
+
+/*-----
+=Third section container
+-----*/
+
+.third-section-container {
+  display: block;
+  position: relative;
+}
+
+@media only screen
+and (max-width: 66.938em) { 
+
+  .video-home-section {
+    height: 100%;
+  }
+
+}
+
+@media only screen
+and (max-width: 63.938em) {
+
+  .home-customer-title {
+    display: none !important;
+  }
+
+
+  .check-right-margin {
+    margin-right: 0px;
+  }
+  
+  .list-checked-text p {
+    font-size: 14px;
+  }
+
+  .list-check-container {
+    justify-content: flex-start;
+  }
+
+  .list-checked img {
+    width: 81px;
+  }
+
+  #home-customer-title {
+    display: none !important;
+  }
+
+  .home-card {
+   width: 100%;
+    margin-bottom: 20px;
+    height: 320px;
+  }
+
+  .home-card-container {
+    padding: 18px;
+    top: -27px;
+  }
+
+  .home-video-over {
+   display: none;
+  }
+
+  .video-home-section {
+   /*background-image: url("../dist/images/mobile-home-background.png");*/
+    background-repeat: no-repeat;
+    background-image: url("../dist/images/homemobile.png");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 375px;
+    padding-top: 0px;
+    /*background-position-x: -100px;*/
+  }
+
+  .home-card {
+    padding-top: 50px;
+  }
+
+  #home-customer-title {
+    display: none !important;
+  }
+
+
+}
+
+
+

@@ -1,0 +1,818 @@
+/*
+section.call-center-solution {
+	margin-top: 0;
+}
+site-navigation {
+	padding: 0;
+}
+
+*/ 
+
+
+nav button.menu-toggle{
+	background-color: transparent;
+	float: right;
+}
+
+
+/* =========== CAPTCHA  */
+.g-recaptcha{
+	float: left;
+	margin-left: 13px;
+	margin-bottom: 20px;
+	width: 100%;
+	clear: right;
+}
+.form-status-error {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.form-status-error p {
+	position: absolute;
+	width: 300px;
+	height: 120px;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -60px;
+	
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #ac0000;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+/* ----- */
+
+section#social-media-management{
+	padding-top: 0;
+	margin-top: 20px;
+	
+}
+section#call-center-services{
+	background-size: 100%;
+	padding-top: 0;
+	
+}
+
+section.call-center-solution {
+	margin-top: 0;
+}
+section#live-chat-services{
+	margin-top: 0;
+	padding-bottom:0
+}
+section#chat-bot-services {
+	margin-top: 0;
+}
+section .text-container-live-chat{
+	margin-top: 20px;
+}
+
+img#smile-agent {
+	display: none;
+	width: 100%;
+}
+
+
+section.section-quote-button-content {
+	padding-top: 80px;
+    padding-bottom: 50px;
+	background-color: white;
+}
+
+/* --- */
+
+.video-home-section{
+	background-image:none;
+	background-color: transparent;
+}
+
+#roi-text {
+	display: none;
+}
+
+#vid-pic{
+	display: none;
+}
+
+div p.global-top-text {
+    position: relative;
+    top:10px;
+    left: -20px;
+	
+	margin-left: 30px
+}
+
+.menu-container {
+    padding-top: 74px;
+}
+
+p.global-top-text{
+	color: #cecece;
+}
+
+
+.home-card .home-card-body{
+	padding-top: 20px;
+	
+}
+.home-card .home-card-body h3 {
+	line-height: 150%;
+}
+
+/* -home 2 BUTTONS- */
+
+.main-bottons-content{
+	bottom: 87px;
+}
+.main-bottons-content > div > div > a{
+	padding: 20px;
+	border-radius: 10px;
+	font-weight:bold;
+}
+.main-bottons-content > div > div > a:hover{
+	color: white;
+}
+
+.main-bottons-content > div > div > a[href="/careers"]{
+	color: #402f51; 
+}
+
+.smstext-four-container {
+	display: none;
+}
+
+section#technical-support{
+	margin-top: 0;
+	
+}
+section#technical-support .tech-support-title > p{
+	text-align: justify;
+}
+
+img#tech {
+	display: none;
+}
+
+
+section#back-office-support h1,
+section#back-office-support p,
+section#back-office-support ul,
+section#back-office-support li
+{
+	text-align: center;
+}
+
+section#company-slider-about{
+	background-image: none;
+	height: auto;
+	padding-top: 0;
+}
+
+section#company-slider-about > img {
+	display: block;
+	width: 100%;
+	
+}
+section#software-development {
+	margin-top: 0;
+}
+
+/* -------------------------------------------------- */
+/* --------------------------------- responsive stuff */
+/* -------------------------------------------------- */
+@media (max-width: 1645px){
+		
+}
+
+@media (max-width: 1600px){
+	.who_1,
+	.who_2{
+		width: 100%;
+	}
+	
+	.who_2{
+		
+	}
+	
+}
+
+@media ( max-width: 1525px ){
+	section#call-center-services {
+		background-image: none;
+	}
+	section#call-center-services > div.call-center-container > div {
+		width: 100%;
+		margin-left: 0;
+		
+	}
+	
+	img#smile-agent {
+		display: block
+	}
+	
+	h1.solution-title {
+		text-align: left;
+		color: #f16d10 !important;
+		background-color: transparent !important;
+	}
+	.solution-list li {
+		text-align: left;
+	}
+	ul.solution-list h3{
+		text-align: left;
+	}
+	.call-center-container{
+		height: 522px;
+	}
+}
+
+@media (max-width: 1414px){
+	.section-quote-button-content{
+		padding: 40px 0;
+	}
+	
+	section.main-form-container{
+		padding-bottom: 0;
+	}
+	.free_1 {
+		display: none;
+		
+	}
+	.free_2 {
+		width: 100%;
+	}
+	.free_3 {
+		width: 100%;
+		display: none;
+	}
+	.free_3 > div {
+		width: 25%;
+	}
+	
+	
+	section#back-office-support h1,
+	section#back-office-support p,
+	section#back-office-support ul,
+	section#back-office-support li,
+	section#back-office-support h3
+	{
+		text-align: left;
+	}
+	
+	section#back-office-support{
+		background-image: none;
+		margin-top: 0;
+	}
+	
+	section#back-office-support > div > div {
+		width: 100%;
+	}
+	
+	
+	/* --- */
+	
+	section#software-development{
+		background-image: none;
+		margin-top: 0;
+	}
+	section#software-development .solution-title{
+		text-align: left;
+	}
+	section#software-development p.solution-paragraph {
+		text-align: left;
+	}
+	
+	section#software-development .tech-support-title{
+		width: 100%;
+		margin: 0;
+		margin-top: 40px;
+	}
+	
+	/* --- */
+	
+	section#technical-support {
+		background-position-x: -135px;
+	}
+	img#tech{
+		
+	}
+	section#software-development .tech-support-title{
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+	}
+	section#technical-support .solution-title {
+		text-align: left;
+	}
+}
+
+@media (max-width: 1380px){
+	.home-card .home-card-body h3 {
+		font-size: 14px;
+	}
+	.home-card .home-card-footer a{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1320px){
+	
+	
+	#chat-bot-services h1.solution-title{
+		color: white !important;
+	}
+	
+	.bubble1 > img {
+		opacity: 0.6;
+	}
+	/* ------ */
+	
+	section#call-center-services {
+		background-image: none;
+	}
+	section#call-center-services > div.call-center-container > div {
+		width: 100%;
+		margin-left: 0;
+		
+	}
+	
+	img#smile-agent {
+		display: block
+	}
+	
+	h1.solution-title {
+		text-align: left;
+		color: #f16d10 !important;
+		background-color: transparent !important;
+	}
+	.solution-list li {
+		text-align: left;
+	}
+	ul.solution-list h3{
+		text-align: left;
+	}
+	.call-center-container{
+		height: 522px;
+	}
+}
+
+@media (max-width: 1270px){
+	
+    .main-navigation li a {
+		padding: 8px 10px;
+		font-size: 15px;
+		
+	}
+	.home-card .home-card-body h3 {
+		font-size: 12px;
+	}
+	
+}
+
+@media (max-width: 1200px){
+	section#technical-support {
+		background-position-x: -235px;
+		background-position-y: -75px;
+		
+	}
+	
+	/* --- */
+	
+	section#social-media-management > div > div:nth-child(1) {
+		width: 100%;
+	}
+	section#social-media-management > div > div:nth-child(2) {
+		width: 100%;
+		padding-top: 80px;
+	}
+	
+	.solutions-section-third-container {
+		height: auto;
+	}
+	
+	/* -- */
+	.home-card {
+		width: 14%;
+		position: relative;
+		top: 0px;
+		box-shadow: none;
+    	border-radius: none;
+		background-color: #fafafa;
+	}
+	
+	.home-card .home-card-body h3 {
+		font-size: 12px;
+	}
+	.home-card .home-card-footer a {
+		font-size: 11px;
+	}
+	
+	
+}
+@media( max-width: 1199px ){
+	section#call-center-services{
+		padding-bottom: 35px;	
+	}
+	
+}
+
+@media (max-width: 1111px){
+	section#technical-support {
+		background-position-x: -300px;
+	}
+	
+	/* --- */
+	
+	img.top-logo{
+		position: relative;
+		left: -25px;
+		
+		
+	}
+	div p.global-top-text{
+		margin-left: 12px;
+	}
+}
+
+@media (max-width: 1071px){ /* ------- from desktop menu to mobile menu  */
+	
+	nav#site-navigation {
+		position: absolute;
+	}
+	/* --- */
+	
+	img.top-logo {
+		position: relative;
+		left: -25px;
+
+		width: 140px;
+    	top: -7px;
+	}
+	
+	header#masthead {
+		height: 60px;
+	}
+	
+	button.menu-toggle img.sd-menu-top {
+		position: relative;
+    	top: -14px;
+		left: 50px;
+	}
+	
+	.menu-container {
+		padding-top: 3px;
+	}
+	
+	
+	ul#primary-menu {
+        display: block;
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+		width: 100%;
+		position: relative;
+		margin: 0;
+		padding-bottom: 0;
+		padding-top: 0;
+		padding: 0;
+		z-index: 999;
+		/*
+		position: absolute;
+		top: 50px;
+		left: 0;
+		*/
+    }
+	ul#primary-menu * {
+		display:block;
+	}
+	ul#primary-menu li{
+		
+	}
+	ul#primary-menu li a{
+		text-transform: uppercase;
+		color: white;
+		padding: 10px;
+	}
+	
+	ul#primary-menu > li > a{
+		font-weight: bold;
+	}
+	
+	
+	ul.sub-menu{
+		position: static !important;
+		margin-left: 0;
+		left: 0;
+		top: 0;		
+	}
+	ul.sub-menu li {
+		text-align: left !important;
+	}
+	ul.sub-menu li a{
+		width: 100%;
+	}
+	
+	/* 
+	ul#primary-menu ul.sub-menu{
+		overflow: hidden;
+		height: 0;
+	}
+	*/
+	
+	#primary-menu > li:last-child{
+		border-radius: 0;
+	}
+	
+}
+
+@media (max-width: 1023px){ /* ------- from video to photo  */
+	
+	
+	section#technical-support {
+		background-image: none;
+	}
+	.tech-support-title {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	
+	section#company-slider-about{
+		padding-bottom: 0;
+	}
+	section#company-history{
+		padding-top: 0;
+	}
+	
+	div.about-person {
+		background-size: cover !important;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 0;
+		padding-top: 100%;
+	}
+	div.container-person {
+		height: auto !important;
+	}
+	
+	section#back-office-support {
+		padding-top: 20px;
+	}
+	
+	section#software-development{
+		padding-top: 0;
+	}
+	
+	
+	section#technical-support {
+		padding-top: 0;
+	}
+	
+	.chat-box-text-content {
+		width: 100%;
+	}
+	
+	#vid-pic {
+		display:block;
+		width: 100%;
+		position: relative;
+		z-index:22;
+	}
+	
+	p#roi-text {
+		
+		display: block;
+		
+		position: absolute;
+		top: 70px;
+		right: 3px;
+		z-index: 99;
+		font-family: Montserrat;
+		font-size: 30px;
+		font-weight: bold;
+		color: #01235d;
+		width: 463px;
+		text-align: center;
+		line-height: 170%;
+		background-color: #ffffff47;
+		border-radius: 15px;
+	}
+	p#roi-text .uno {
+		font-size: 31px;
+	}
+	p#roi-text .dos{
+		color: #f06e32;
+		font-size: 36px;
+	}
+	p#roi-text .tres{
+		color: #f06e32;
+		font-size: 51px;
+	}
+	
+	section.video-home-section{
+		height: auto !important;
+	}
+	
+	
+	.main-bottons-content{
+		position: absolute;
+		width: 400px;
+		right: 3px;
+		bottom: 28px;
+		z-index: 77;
+		padding: 0;
+	}
+	
+	/* ---- home CARDS---- */
+	.home-card {
+		padding-top: 20px;
+		width: 25%;
+		height: 238px;
+		position: relative;
+		top: 15px;
+		box-shadow: none;
+    	border-radius: 0;
+		background-color: #fafafa;
+	}
+	.home-card.le {
+		width: 33.3%;
+	}
+	
+	
+	.home-card-footer{
+		border-radius: 0;
+		margin-left: 2px;
+		margin-right: 2px;
+		background-color: transparent;
+	}
+	.home-card-footer a{
+		color: #63779a;
+	}
+	.home-card .home-card-body h3{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 991px){ /* --------------------------- */
+	.call-center-container{
+		height: auto;
+		
+	}
+	.light-box-slider-img-cont img {
+		max-height: none;
+	}
+}
+
+@media (max-width: 823px){ /* -------------------  */
+	p#roi-text {
+		
+		line-height: 146%;
+		top: 58px;
+		width: 360px;
+		right: 15px;
+	}
+	p#roi-text .uno {
+		font-size: 25px;
+	}
+	p#roi-text .dos{
+		color: #f06e32;
+		font-size: 29px;
+	}
+	p#roi-text .tres{
+		color: #f06e32;
+		font-size: 41px;
+	}
+}
+
+@media (max-width: 777px){ /*  ------------------ 777  */
+	.home-card,
+	.home-card.le
+	{
+		width: 100%;
+		border-bottom: 1px solid #ffc6ab;
+	}
+	
+	.main-bottons-content{
+		width: 250px;
+		padding:0;
+		right: 5px;
+	}
+	.main-bottons-content > div > div {
+		padding: 0;
+	}
+	.main-bottons-content > div {
+		padding: 0;
+	}
+	.main-bottons-content > div > div > a{
+		padding: 15px;
+		font-size: 11px;
+		margin: 0 3px;
+	}
+}
+
+@media (max-width: 714px){
+	.company-history-header span{
+		width: 100% !important;
+	}
+	
+	section#company-history{
+		padding-bottom: 0 !important;
+	}
+	.who_2{
+		margin-top: 20px !important;
+	}
+	.container-mission-content{
+		padding-top: 0;
+	}
+	section#leadership{
+		padding-top:10px;
+	}
+	
+	p#roi-text {
+		
+		line-height: 94%;
+		top: 58px;
+		width: 282px;
+		text-align: right;
+	}
+	p#roi-text .uno {
+		font-size: 20px;
+	}
+	p#roi-text .dos{
+		color: #f06e32;
+		font-size: 22px;
+	}
+	p#roi-text .tres{
+		color: #f06e32;
+		font-size: 22px;
+	}
+	
+	
+}
+
+@media (max-width: 534px){
+	p#roi-text {
+		line-height: 63%;
+		top: 58px;
+		right: 24px;
+		width: 240px;
+		text-align: right;
+	}
+	p#roi-text .uno {
+		font-size: 17px;
+	}
+	p#roi-text .dos{
+		color: #f06e32;
+		font-size: 17px;
+	}
+	p#roi-text .tres{
+		color: #f06e32;
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 460px){
+	img.top-logo {
+		position: relative;
+		left: -25px;
+		width: 105px;
+    	top: -2px;
+	}
+	
+	
+	p#roi-text {
+		line-height: 63%;
+		top: 9px;
+		right: 24px;
+		width: 205px;
+		text-align: right;
+		background-color: transparent;
+	}
+	p#roi-text .uno {
+		font-size: 15px;
+	}
+	p#roi-text .dos{
+		color: #f06e32;
+		font-size: 15px;
+	}
+	p#roi-text .tres{
+		color: #f06e32;
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+

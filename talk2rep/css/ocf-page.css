@@ -1,0 +1,284 @@
+.ocf-header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ocf-header h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #002a7b;
+}
+
+.ocf-first-section {
+  padding-top: 100px;
+  background-image: linear-gradient(to bottom, #FAFAFA 75%, #FFFFFF 0%);
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+.thumb-padding {
+  padding: 0px 8px;
+}
+
+
+.ocf-first-section-new {
+  /* background-image: linear-gradient(to bottom, #FAFAFA 75%, #FFFFFF 0%); */
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.ocf-slider-container {
+  margin-top: 50px;
+}
+
+.ocf-first-section-new div.header-section {
+  background-image: url('../dist/images/ocf/background-blue.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 143.6px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.one-row-slider {
+  margin-bottom: 20px;
+}
+
+
+
+/*
+#FORMMM
+*/
+
+.bg-left-form {
+  background-image: url('../dist/images/ocf/contact-form-left-bgx.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+
+.ocf-right-form{
+  position: relative;
+  display: block;
+}
+
+.ocf-form-content {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.ocf-form-content label {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #6f759d;
+}
+
+.ocf-term-cond {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: left;
+  color: #6f759d;
+}
+
+
+.ocf-term-cond span {
+  margin-right: 8px;
+}
+
+.ocf-right-form-title {
+
+}
+
+.ocf-right-form-title span {
+  position: relative;
+  display: block;
+  border-bottom: solid 3px rgb(241, 109, 16);
+  width: 190px;
+}
+
+.ocf-right-form-title h3 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  color: #f16d10;
+  margin-bottom: 3px;
+}
+
+.ocf-form-button-content {
+  text-align: center;
+}
+
+.ocf-form-button-content button {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: rgb(241, 109, 16);
+}
+
+.ocf-form-button {
+
+}
+
+div.header-section h2 {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+div.header-section h3 {
+  color: #ACB1BA;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.ocf-second-section-new {
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #FAFAFA 75%);
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.ocf-second-section-new div.header-section {
+  background-image: url('../dist/images/ocf/background-orange.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 143.6px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ocf-header-pragraph {
+
+}
+
+.ocf-header-pragraph p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  color: #545871;
+}
+
+.ocf-second-section {
+  padding-bottom: 100px;
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #FAFAFA 75%);
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+
+.ocf-date-name {
+  background-image: url('../dist/images/ocf/casaamor.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+}
+
+.back-home-bottom {
+  position: relative;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.back-home-bottom h5 {
+  font-family: Ubuntu;
+  text-align: center;
+  color: #f16d10;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.back-home-bottom span {
+  display: block;
+  position: absolute;
+  border-bottom: solid 3px #f16d10;
+  width: 100px;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.ocf-date-name-two {
+  background-image: url('../dist/images/ocf/casaamor2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+}
+
+.ocf-date-name-two h2 {
+  color: #FFFFFF;
+}
+
+.ocf-date-name-two h3 {
+  color: #FFFFFF;
+}
+
+.ocf-date-name h2 {
+  color: #FFFFFF;
+}
+
+.ocf-date-name h3 {
+  color: #ACB1BA;
+}
+
+.ocf-date-title {
+  font-family: Ubuntu, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;  
+}
+
+.ocf-date-subtitle {
+  font-family: Ubuntu, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px;  
+}
+
+.ocf-paragraph {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #545871;
+}
+
+
+/* .bg-left-form */
+
+
+@media only screen
+and (max-width: 63.938em) {
+  .bg-left-form {
+  display: none;
+  }
+
+}
