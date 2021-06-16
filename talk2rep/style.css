@@ -1226,3 +1226,19 @@ and (max-width: 66.938em) {
 		display: block;
 	}
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++
+* Market Mentors 6.16.21
+* OVERRIDES for Landing Pages
+* Vanilla CSS
++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ---------------
+	desktop 
+--------------- */
+
+
+/* responsive/mobile */
+@media only screen and (max-width: 60rem){
+	
+}
