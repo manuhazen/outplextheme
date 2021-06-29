@@ -1153,8 +1153,7 @@ button:focus {outline:0;}
 	display: none;
 }
 
-@media only screen
-and (max-width: 66.938em) {
+@media only screen and (max-width: 66.938em) {
 	/*.main-navigation ul {*/
         /*display: none;*/
     /*}*/
@@ -1226,8 +1225,6 @@ and (max-width: 66.938em) {
 		display: block;
 	}
 }
-
-
 
 
 
