@@ -1227,18 +1227,21 @@ and (max-width: 66.938em) {
 	}
 }
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++
-* Market Mentors 6.16.21
-* OVERRIDES for Landing Pages
-* Vanilla CSS
-+++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-/* ---------------
-	desktop 
---------------- */
 
 
-/* responsive/mobile */
-@media only screen and (max-width: 60rem){
-	
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++
+    * LANDING PAGE ADJUSTMENT - TARGETING LANDING PAGE TEMPLATE 
+    * FULL WIDTH LAYOUT CSS OVERRIDES
+    * TARGET => .page-template-_landing-page-april2021 
+    * Market Mentors 6.29.21
++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.page-template-_landing-page-april2021  .fullwidth-1200{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto !important;
+	float: none !important;
+	display: block !important;
 }

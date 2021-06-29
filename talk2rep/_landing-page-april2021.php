@@ -44,6 +44,7 @@ get_header();
 <section class="main-form-container bg-light-gray">
 <div class="container-fluid form-section-container">
 
+<?php /* -- hide on Landing Page. Market Mentors 6.29.21
 <div class="col-lg-3 col-md-3 services-bubble">
     <!-- Services -->
     <div class="col-lg-12 col-md-12 award-content">
@@ -66,11 +67,11 @@ get_header();
     </div>
     <!-- End Services -->
 </div>
-
+*/ ?>
  
  <!-- main content - Landing Pages -->
-
-<div class="col-lg-6 col-md-6 outplex-form-container">
+<?php /* <div class="col-lg-6 col-md-6 outplex-form-container"> */ ?>
+<div class="col-lg-12 col-md-12 outplex-form-container fullwidth-1200">
 	<div class="landing-page-content">
 		<?php the_content(); ?>
 	</div>	
