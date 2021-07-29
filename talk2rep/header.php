@@ -22,16 +22,28 @@
 	 -->
 
 
-<!-- Google Tracking code - MM.7.29.21 -->
-<!-- Global site tag (gtag.js) - Google Ads: 652455239 -->
-<script async src=https://www.googletagmanager.com/gtag/js?id=AW-652455239></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-652455239');
-</script>
-<!-- /Google Tracking code - MM.7.29.21 -->
+<?php
+/**
+ * Targeting: _landing-page-aprile2021.php Template
+ * 
+ * Google Tracking code - MM.7.29.21
+ * 
+ * @package talk2rep 
+*/
+
+if ( is_page_template( '_landing-page-april2021.php' ) ) { ?> 
+    <!-- Google Tracking code - MM.7.29.21 -->
+    <!-- Global site tag (gtag.js) - Google Ads: 652455239 -->
+    <script async src=https://www.googletagmanager.com/gtag/js?id=AW-652455239></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-652455239');
+    </script>
+    <!-- /Google Tracking code - MM.7.29.21 -->
+<?php } ?>
+
 
 	
 <!-- Bing tracking -->
